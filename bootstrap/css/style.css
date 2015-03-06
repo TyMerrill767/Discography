@@ -1,0 +1,104 @@
+/*
+
+Developer: Tyler Merrill
+
+Table of Contents
+
+HEADER - Site name, logo, main menu
+
+SIDEBAR - Submenu, search bar, shortlists
+
+MAIN CONTENT - Articles, search results
+
+FOOTER – Copyright
+
+Color Palette
+
+
+*/
+
+/* ------------ ‘HEADER ------------*/
+/*global styles*/
+header{
+
+}
+/*mobile styles*/
+@media only screen and (max-width:480px){
+  
+}
+
+/*tablet styles*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    
+}
+
+/*desktop styles*/
+@media only screen and (min-width:769px){
+   
+}
+/* ------------ ‘MAIN CONTENT------------*/
+/*global styles*/
+
+body{
+   padding-left: 5px;
+}
+
+label{
+    display: block;
+    font-size: 1em;
+    margin: .8em 0 0;
+}
+
+input, textarea{
+    width: 250px;
+}
+
+
+/*mobile styles*/
+@media only screen and (max-width:480px){
+    .col-xs-4 {
+        width: 90%;
+    }
+}
+
+/*tablet styles*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+      .col-xs-4 {
+        width: 49%;
+    }
+}
+
+/*desktop styles*/
+@media only screen and (min-width:769px){
+    
+}
+/* ------------ ‘SIDEBAR ------------*/
+/*global styles*/
+    
+/*mobile styles*/
+@media only screen and (max-width:480px){
+  
+}
+
+/*tablet styles*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    
+}
+
+/*desktop styles*/
+@media only screen and (min-width:769px){
+/* ------------ ‘FOOTER ------------*/
+/*global styles*/
+
+/*mobile styles*/
+@media only screen and (max-width:480px){
+  
+}
+
+/*tablet styles*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    
+}
+
+/*desktop styles*/
+@media only screen and (min-width:769px){
