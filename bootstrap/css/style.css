@@ -26,12 +26,10 @@ header{
 @media only screen and (max-width:480px){
   
 }
-
 /*tablet styles*/
 @media only screen and (min-width: 481px) and (max-width:768px){
     
 }
-
 /*desktop styles*/
 @media only screen and (min-width:769px){
    
@@ -40,35 +38,33 @@ header{
 /*global styles*/
 
 body{
-   background: url(../images/roughage.png);
+   background: url(../images/roughage.png) #000;
    color: #fff;
    padding-left: 5px;
 }
-
 label{
     display: block;
     font-size: 1em;
     margin: .8em 0 0;
 }
-
 input, textarea{
     width: 250px;
 }
-
+nav.navbar{
+    background: #000;
+}
 /*mobile styles*/
 @media only screen and (max-width:480px){
     .col-xs-4 {
         width: 90%;
     }
 }
-
 /*tablet styles*/
 @media only screen and (min-width: 481px) and (max-width:768px){
       .col-xs-4 {
         width: 49%;
     }
 }
-
 /*desktop styles*/
 @media only screen and (min-width:769px){
     
