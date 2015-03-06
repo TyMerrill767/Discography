@@ -20,7 +20,7 @@ Color Palette
 /* ------------ ‘HEADER ------------*/
 /*global styles*/
 header{
-
+    
 }
 /*mobile styles*/
 @media only screen and (max-width:480px){
@@ -40,6 +40,8 @@ header{
 /*global styles*/
 
 body{
+   background: url(../images/roughage.png);
+   color: #fff;
    padding-left: 5px;
 }
 
@@ -52,7 +54,6 @@ label{
 input, textarea{
     width: 250px;
 }
-
 
 /*mobile styles*/
 @media only screen and (max-width:480px){
