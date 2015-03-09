@@ -40,6 +40,7 @@ header{
 body{
    background: url(../images/paper.png) #d2b48c;
    color: #000;
+   margin-left: 15px;
    padding-left: 5px;
 }
 label{
