@@ -22,6 +22,9 @@ Color Palette
 header{
     
 }
+nav{
+    width 100%;
+}
 /*mobile styles*/
 @media only screen and (max-width:480px){
   
@@ -32,16 +35,21 @@ header{
 }
 /*desktop styles*/
 @media only screen and (min-width:769px){
-   
+   nav ul li{
+    top: 35px;
+}
 }
 /* ------------ ‘MAIN CONTENT------------*/
 /*global styles*/
 
 body{
+   /*background obtained from subtlepatterns.com*/
    background: url(../images/paper.png) #d2b48c;
    color: #000;
-   margin-left: 15px;
    padding-left: 5px;
+}
+main{
+   margin-left: 15px;
 }
 label{
     display: block;
@@ -54,15 +62,9 @@ input, textarea{
 nav.navbar{
     background: #000;
 }
-
-nav ul li{
-    top: 35px;
-}
-
 #logo{
    float: left;
 }
-
 /*mobile styles*/
 @media only screen and (max-width:480px){
     nav ul li{
