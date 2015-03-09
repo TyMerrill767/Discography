@@ -38,8 +38,8 @@ header{
 /*global styles*/
 
 body{
-   background: url(../images/roughage.png) #000;
-   color: #fff;
+   background: url(../images/paper.png) #000;
+   color: #000;
    padding-left: 5px;
 }
 label{
@@ -52,7 +52,13 @@ input, textarea{
 }
 nav.navbar{
     background: #000;
+    float: right;
 }
+
+#logo{
+    float: left;
+}
+
 /*mobile styles*/
 @media only screen and (max-width:480px){
     .col-xs-4 {
