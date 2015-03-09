@@ -13,16 +13,15 @@ MAIN CONTENT - Articles, search results
 FOOTER – Copyright
 
 Color Palette
-
-
 */
-
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
 /* ------------ ‘HEADER ------------*/
 /*global styles*/
-header{
-    
+#logo{
+   float: left;
 }
 nav{
+    font: 110% 'Poiret One', sans-serif;
     width 100%;
 }
 /*mobile styles*/
@@ -62,8 +61,11 @@ input, textarea{
 nav.navbar{
     background: #000;
 }
-#logo{
-   float: left;
+.htmlbutton{
+    float
+}
+.atb{
+    margin-right: 5px;
 }
 /*mobile styles*/
 @media only screen and (max-width:480px){
