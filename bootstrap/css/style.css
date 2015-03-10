@@ -15,6 +15,7 @@ FOOTER – Copyright
 Color Palette
 */
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
 /* ------------ ‘HEADER ------------*/
 /*global styles*/
 #logo{
@@ -49,6 +50,18 @@ body{
 }
 main{
    margin-left: 15px;
+}
+h1, h2, h3, h4{
+    font: 100% Oswald, sans-serif;
+}
+h1{
+    font-size: 250%;
+}
+h2{
+    font-size: 200%;
+}
+h3{
+    font-size: 150%;
 }
 label{
     display: block;
