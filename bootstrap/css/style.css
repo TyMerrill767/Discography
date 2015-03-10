@@ -22,7 +22,7 @@ Color Palette
    float: left;
 }
 nav{
-    font: 110% 'Poiret One', sans-serif;
+    font: 130% 'Poiret One', sans-serif;
     width 100%;
 }
 /*mobile styles*/
@@ -46,7 +46,7 @@ body{
    /*background obtained from subtlepatterns.com*/
    background: url(../images/paper.png) #d2b48c;
    color: #000;
-   padding-left: 5px;
+   padding-left: 10px;
 }
 main{
    margin-left: 15px;
@@ -89,6 +89,9 @@ nav.navbar{
 }
 /*mobile styles*/
 @media only screen and (max-width:480px){
+    main{
+        max-width: 80%;
+    }
     nav ul li{
         top: 0;
     }
