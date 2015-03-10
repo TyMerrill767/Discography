@@ -13,6 +13,9 @@ MAIN CONTENT - Articles, search results
 FOOTER – Copyright
 
 Color Palette
+#d2b48c - Tan
+#028482 - Teal
+
 */
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 @import url(http://fonts.googleapis.com/css?family=Oswald:700);
@@ -24,6 +27,9 @@ Color Palette
 nav{
     font: 130% 'Poiret One', sans-serif;
     width 100%;
+}
+nav ul li a:hover{
+    background: ;
 }
 /*mobile styles*/
 @media only screen and (max-width:480px){
@@ -44,7 +50,7 @@ nav{
 
 body{
    /*background obtained from subtlepatterns.com*/
-   background: url(../images/feathers.png) #d2b48c;
+   background: /*url(../images/feathers.png)*/ #8E3400;
    color: #000;
    padding-left: 10px;
 }
