@@ -87,9 +87,12 @@ nav.navbar{
     float: left;
     width: 2%;
 }
-/*.cover:hover{
+/*img.cover:hover{
     border: 2px solid #028482;
 } */
+img.cover{
+    border: 2px solid #028482;
+}
 /*mobile styles*/
 @media only screen and (max-width:480px){
     main{
@@ -110,7 +113,7 @@ nav.navbar{
 }
 /*desktop styles*/
 @media only screen and (min-width:769px){
-    
+
 }
 /* ------------ ‘SIDEBAR ------------*/
 /*global styles*/
