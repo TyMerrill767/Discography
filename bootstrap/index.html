@@ -196,46 +196,48 @@
  <div class="row">
     <h2 id="maillist">Join the Mailing List!</h2>
     <p class="warningmessage">Required fields are marked with an asterisk (*).</p>
-    <fieldset>
-        <label for="firstnamefield">*First Name</label>
-        <input id="firstnamefield" type="text" name="name"/><br/>
-        
-        <label for="lastnamefield">*Last Name</label>
-        <input id="lastnamefield" type="text" name="name"/><br/>
-        
-        <label for="addressfield">Address</label>
-        <input id="addressfield" type="text" name="address"/><br/>
-        
-        <label for="cityfield">City</label>
-        <input id="cityfield" type="text" name="city"/><br/>
-        
-        <label for="statefield">State</label>
-        <input id="statefield" type="text" name="state"/><br/>
-        
-        <label for="zipfield">Zip Code</label>
-        <input id="zipfield" type="text" name="zip"/><br/>
-        
-        <label for="dobfield">*Date of Birth</label>
-        <input id="dobfield" type="text" name="dob"/><br/>
-        
-        <label for="emailfield">*Email</label>
-        <input id="emailfield" type="email" name="email"/>
+    <form id="maillistform" class="group" action="" method="POST" onsubmit="return confirm('Thank you for signing up for our mailing list. You will receive a confirmation email shortly.')">
+        <fieldset>
+            <label for="firstnamefield">*First Name</label>
+            <input id="firstnamefield" type="text" name="name" required/><br/>
 
-        <div class="htmlbutton">
-            <label for="htmlbutton">HTML</label>
-            <input id="htmlbutton" type="radio" name="emailpreference" value="HTML" checked>
-        </div>
+            <label for="lastnamefield">*Last Name</label>
+            <input id="lastnamefield" type="text" name="name" required/><br/>
 
-        <div class="plaintextbutton">
-            <label for="plaintextbutton">Plain Text</label>
-            <input id="plaintextbutton" type="radio" name="emailpreference" value="Plain Text"><br/>
-        </div>
+            <label for="addressfield">Address</label>
+            <input id="addressfield" type="text" name="address"/><br/>
 
-        <label for="comments">Comments</label>
-        <textarea name="comments" id="comments"></textarea><br/>
-        
-        <input type="submit" name="submit" value="Submit" tabindex="90">
-    </fieldset>
+            <label for="cityfield">City</label>
+            <input id="cityfield" type="text" name="city"/><br/>
+
+            <label for="statefield">State</label>
+            <input id="statefield" type="text" name="state"/><br/>
+
+            <label for="zipfield">Zip Code</label>
+            <input id="zipfield" type="text" name="zip"/><br/>
+
+            <label for="dobfield">*Date of Birth</label>
+            <input id="dobfield" type="text" name="dob" required/><br/>
+
+            <label for="emailfield">*Email</label>
+            <input id="emailfield" type="email" name="email" required/>
+
+            <div class="htmlbutton">
+                <label for="htmlbutton">HTML</label>
+                <input id="htmlbutton" type="radio" name="emailpreference" value="HTML" checked>
+            </div>
+
+            <div class="plaintextbutton">
+                <label for="plaintextbutton">Plain Text</label>
+                <input id="plaintextbutton" type="radio" name="emailpreference" value="Plain Text"><br/>
+            </div>
+
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments"></textarea><br/>
+
+            <input type="submit" name="submit" value="Submit" tabindex="90">
+        </fieldset>
+    </form>
   </div>
   <div class="row">
     <h2 id="sources">Sources and Credits</h2>

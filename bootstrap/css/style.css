@@ -80,6 +80,13 @@ nav.navbar{
 .warningmessage{
     font: italic 80% Oswald, sans-serif;
 }
+.htmlbutton label, .htmlbutton input, .plaintextbutton label, .plaintextbutton input{
+    display: inline;
+}
+.htmlbutton input, .plaintextbutton input{
+    float: left;
+    width: 2%;
+}
 /*mobile styles*/
 @media only screen and (max-width:480px){
     nav ul li{
