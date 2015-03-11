@@ -54,6 +54,7 @@ body{
    background: /*url(../images/feathers.png)*/ #8E3400;
    color: #000;
    padding-left: 10px;
+   padding-bottom: 200px;
 }
 main{
    margin-left: 15px;
@@ -65,7 +66,9 @@ h1{
     font-size: 250%;
 }
 h2{
+    border-bottom: 5px double #000;
     font-size: 200%;
+    width: 75%;
 }
 h3{
     font-size: 150%;
