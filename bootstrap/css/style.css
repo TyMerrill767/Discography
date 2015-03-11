@@ -51,7 +51,7 @@ nav ul li a:hover{
 /*global styles*/
 
 body{
-   background: /*url(../images/feathers.png)*/ #8E3400;
+   background: url(../images/cartographer.png) #DB5000;
    color: #000;
    padding-left: 10px;
    padding-bottom: 200px;
