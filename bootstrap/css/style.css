@@ -42,15 +42,15 @@ nav ul li a:hover{
 /*desktop styles*/
 @media only screen and (min-width:769px){
    nav ul li{
-    top: 35px;
-}
+     padding-top: 35px;
+    }
 }
 /* ------------ ‘MAIN CONTENT------------*/
 /*global styles*/
 
 body{
    /*background obtained from subtlepatterns.com*/
-   background: /*url(../images/feathers.png)*/ #8E3400;
+   background: url(../images/feathers.png) #8E3400;
    color: #000;
    padding-left: 10px;
 }
@@ -104,11 +104,12 @@ img.cover{
     main{
         max-width: 80%;
     }
-    nav ul li{
-        top: 0;
-    }
     .col-xs-4, .col-xs-5, .col-xs-6{
         width: 90%;
+    }
+    .htmlbutton input, .plaintextbutton input{
+        float: left;
+        width: 5%;
     }
 }
 /*tablet styles*/
