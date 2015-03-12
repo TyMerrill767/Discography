@@ -14,9 +14,11 @@ FOOTER – Copyright
 
 Color Palette
 #d2b48c - Tan
+#A0A0A0 - Silver Chalice
 #028482 - Teal
 #8E3400 - Peru Tan
 #337ab7 - Astral
+#DB5000 - Grenadier
 background obtained from http://www.transparenttextures.com/
 */
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
@@ -80,11 +82,15 @@ label{
 }
 input, textarea{
     background: #000;
-    color: #d3d3d3;
+    color: #A0A0A0;
     width: 250px;
 }
 nav.navbar{
     background: #000;
+}
+nav.navbar a:hover{
+    background: #A0A0A0;
+    color: #DB5000;
 }
 .atb{
     margin-right: 5px;
