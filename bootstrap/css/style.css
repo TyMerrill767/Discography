@@ -87,6 +87,7 @@ input, textarea{
 }
 nav.navbar{
     background: #000;
+    width: 100%;
 }
 nav.navbar a:hover{
     background: #A0A0A0;
